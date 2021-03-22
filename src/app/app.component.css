@@ -1,0 +1,10 @@
+
+.container{
+    height:100vh;
+    /* background-color:yellow; */
+    border-top:3px solid rgb(101, 172, 253);
+    border-left:10px solid rgb(155, 190, 235);
+    border-right: 10px solid rgb(160, 180, 206);  
+    
+}
+

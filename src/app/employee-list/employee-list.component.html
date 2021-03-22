@@ -1,0 +1,11 @@
+<div id='header'>
+    Employee List
+</div>
+
+<ul id='employees'>
+    <li class='title'>List of all employees </li>
+    <div  *ngFor="let employee of employees" (click)='showDetails(employee)'>
+        <li >{{employee.FirstName +" "+ employee.LastName}}</li>
+        <span>></span>
+    </div>
+</ul>

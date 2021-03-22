@@ -1,0 +1,19 @@
+<div id='header' >
+    Employee Details of {{currentEmployee.FirstName +" " + currentEmployee.LastName}}
+</div>
+<div class="title-container" >
+<p class="title">
+    {{"Employee ID: "+ currentEmployee.Id }}
+</p>
+<p (click)='flipToResume()' class="resume" >Flip to resume</p>
+</div>
+<div class="details">
+<p class="left-align">FirstName : <span class="right-align">&nbsp;{{currentEmployee.FirstName}}</span> </p>
+<p class="left-align">LastName :<span class="right-align"> &nbsp; {{currentEmployee.LastName}}</span></p>
+  
+<p class="left-align">Address :<span class="right-align">&nbsp;{{currentEmployee.Address}}</span></p>
+<p class="left-align">City :<span class="right-align">&nbsp;{{currentEmployee.City}}</span></p>
+<p class="left-align">Postal Code :  <span class="right-align">&nbsp;{{currentEmployee.PostalCode}}</span></p>
+<p class="left-align">Phone(Home) : <a class="right-align">&nbsp;{{currentEmployee.PhoneHome}}</a></p>
+<p class="left-align">Country : <span class="right-align">&nbsp;{{currentEmployee.Country}}</span></p>
+</div>

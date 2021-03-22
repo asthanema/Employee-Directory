@@ -1,0 +1,47 @@
+#header{
+  
+    background-color:rgb(223, 241, 241) ;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color:gray;    
+    font-size: 25px;
+    border: 1 px solid rgb(223, 241, 241) ;
+} 
+.title-container{
+    width: 95%;
+
+}
+.title{
+    float: left;
+    font-size: 25px;
+    padding: 20px;  
+    border-bottom: 1px solid rgb(223, 241, 241);
+    width: 40%;
+
+}
+
+.resume{
+    right: 0px;
+    color: blue;
+    float: right;
+    padding: 20px;  
+    width: 40%;
+    position: relative;
+   
+}
+.details{
+    width: 300px;
+    clear: both;
+}
+
+.left-align{
+   text-align: right;
+}
+
+.right-align{
+  left: 50x;
+  position: absolute;
+  text-align: left;
+    
+} 

@@ -1,0 +1,21 @@
+#header{
+  
+    background-color:rgb(198, 241, 241) ;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color:gray;    
+    font-size: 25px;
+    border-bottom: 1 px solid rgb(198, 241, 241) ;
+    
+} 
+
+li{
+    float: left;
+    list-style-type: none;
+}
+li a{
+    display: block;
+    padding: 8px;
+    
+}

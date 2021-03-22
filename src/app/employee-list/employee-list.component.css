@@ -1,0 +1,43 @@
+#header{
+  
+       background-color:rgb(223, 241, 241) ;
+       height: 50px;
+       text-align: center;
+       line-height: 50px;
+       color:gray;    
+       font-size: 25px;
+       border-bottom: 1px solid rgb(196, 247, 247);
+   } 
+
+ #employees{  
+     list-style-type: none;  
+     padding-top: 0;
+  
+ } 
+
+  .title{
+    font-size: 25px;
+    padding: 20px;  
+    border-bottom: 1px solid rgb(223, 241, 241);
+    width: 95%;
+  }
+ #employees div{
+    padding: 20px;
+    font-size: 25px;
+    border-bottom: 1px solid rgb(196, 247, 247);
+    width: 95%;
+    float: left;
+    }
+  #employees div:hover{
+      background-color: lightgray;
+  }
+  #employees div span {
+   content: "\003E";
+   position: relative;
+   float: right;
+   color: grey;
+   display: inline;
+   right: 40px;
+   
+}
+  
